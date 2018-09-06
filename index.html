@@ -52,6 +52,10 @@
                     <label for="Assignment GitHub Repository" class="contentLabel">Assignment Github Repo:</label>
                     <input class="contentInput" type="text" name="Assignment GitHub Repository" id="assignmentRepo">
                 </div>
+                <div class='blockContainer'>
+                    <label for="Assignment GitHub Repository" class="contentLabel">Project Folder:</label>
+                    <input class="contentInput" type="text" name="Assignment GitHub Repository" id="projectFolder">
+                </div>
             </div>
         </div>
         <div class="contentRow">
@@ -71,6 +75,26 @@
                         <button class="headerButton btn_sml" onclick="handlePR(event)">PR</button>
                         <button class="headerButton btn_lg" onclick='handleSandbox(event)'>Sandbox</button>
                         <button class="headerButton btn_lg">1on1</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentRow">
+            <div class='studentInputs_container'>
+                <div class='contentSection'>
+                    <div class='blockContainer-sml'>
+                        <label for="studentName" class="contentLabel">Student Name:</label>
+                        <input type="text" class="studentInput" name="studentName">
+                    </div>
+                    <div class='blockContainer-sml'>
+                        <label for="studentGh" class="contentLabel">username:</label>
+                        <input type="text" class="studentUsername" name="studentUsername">
+                    </div>
+                    <div class="btnContainer">
+                        <button class="headerButton btn_sml" onclick="handleGh(event)">GH</button>
+                        <button class="headerButton btn_lg" onclick="handleClone(event)">CLONE</button>
+                        <button class="headerButton btn_sml" onclick="handlePR(event)">PR</button>
+                        <button class="headerButton btn_lg" onclick='handleSandbox(event)'>Sandbox</button>
                     </div>
                 </div>
             </div>
@@ -243,29 +267,6 @@
                 </div>
             </div>
         </div>
-        <div class="contentRow">
-            <div class='studentInputs_container'>
-                <div class='contentSection'>
-                    <div class='blockContainer-sml'>
-                        <label for="studentName" class="contentLabel">Student Name:</label>
-                        <input type="text" class="studentInput" name="studentName">
-                    </div>
-                    <div class='blockContainer-sml'>
-                        <label for="studentGh" class="contentLabel">username:</label>
-                        <input type="text" class="studentUsername" name="studentUsername">
-                    </div>
-                    <div class="btnContainer">
-                        <button class="headerButton btn_sml" onclick="handleGh(event)">GH</button>
-                        <button class="headerButton btn_lg" onclick="handleClone(event)">CLONE</button>
-                        <button class="headerButton btn_sml" onclick="handlePR(event)">PR</button>
-                        <button class="headerButton btn_lg" onclick='handleSandbox(event)'>Sandbox</button>
-                        <button class="headerButton btn_lg">1on1</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
     </div>
     </div>
 
