@@ -1,8 +1,11 @@
 ## Lambda PM Companion
 1. The purpose of this app is to assist Lambda School Project Managers with daily tasks, to eliminate repetition of work and streamline daily tasks.
-
+## V0.9 Screen Shots:
+ ![lmpv0 8](https://user-images.githubusercontent.com/20391435/43625204-bdad6036-96b9-11e8-90cc-1223a8b66744.PNG)
+ 
+ ![lpmv0 9](https://user-images.githubusercontent.com/20391435/43625205-bdba942c-96b9-11e8-9ee6-7e077d1f8c6f.PNG)
 ## Whiteboard of the PM Code Review GUI
-![alt text](./Whiteboard/GitCloneMultiple.jpg "Logo Title Text 1")
+ ![alt text](./Whiteboard/GitCloneMultiple.jpg "Logo Title Text 1")
 
 ## Expected Functionality and Flow of User Interaction
 1. The user would enter the github link to a Lambda School Repository in the `GH Repo Link Here` text box.
